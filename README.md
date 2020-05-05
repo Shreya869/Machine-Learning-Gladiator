@@ -3,28 +3,36 @@ A small project to get hands-on experience with Python, sklearn and Machine Lear
 
 
 Package requirements:
+1.Python 2.7+ or Python 3
+2.NumPy
+3.Pandas
+4.Scikit-Learn (a.k.a. sklearn)
 
-Python 3
-Scipy (0.19.1 or later)
-Numpy (1.13.1 or later)
-Matplotlib (2.0.2 or later)
-Pandas (0.20.3 or later)
-Sklearn (0.19.0 or later)
-Jupyter (optional)
+Here are the steps for building the first random forest model using Scikit-Learn:
 
-In this Python Machine Learning Project, I've learnt how to use Scikit-Learn to build and tune a supervised learning model.
+1.Set up your environment.
+2.Import libraries and modules.
+3.Load red wine data.
+4.Split data into training and test sets.
+5.Declare data preprocessing steps.
+6.Declare hyperparameters to tune.
+7.Tune model using cross-validation pipeline.
+8.Refit on the entire training set.
+9.Evaluate model pipeline on test data.
+10.Save model for further use.
 
-I've been training and tuning a random forest for wine quality based on traits like acidity, residual sugar, and alcohol concentration
+In this Python Machine Learning Project, I've demonstrated how to use Scikit-Learn to build and tune a supervised learning model.
+I've been training and tuning a random forest for wine quality based on traits like acidity, residual sugar, and alcohol concentration.
  
- Why Scikit-Learn for machine learning?
+ *Why Scikit-Learn for machine learning?*
 
 Scikit-Learn, also known as sklearn, is Python’s premier general-purpose machine learning library. While we find other packages that do better at certain tasks, Scikit-Learn’s versatility makes it the best starting place for most ML problems.
-
 It’s also a fantastic library for beginners because it offers a high-level interface for many tasks (e.g. preprocessing data, cross-validation, etc.). This allows us to better practice the entire machine learning workflow and understand the big picture.
- 
  The goal is to take out-of-the-box models and apply them to different datasets. 
  
- First, this project has helped build intuition for model-to-problem fit. Which models are robust to missing data? Which models handle categorical features well? We can learn better by seeing it in action.
+ *Objectives*
+ 
+First, this project has helped build intuition for model-to-problem fit. Which models are robust to missing data? Which models handle categorical features well? We can learn better by seeing it in action.
 
 Second, this project taught me the invaluable skill of prototyping models quickly. In the real world, it’s often difficult to know which model will perform best without simply trying them.
 
