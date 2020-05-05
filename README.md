@@ -4,21 +4,33 @@ A small project to get hands-on experience with Python, sklearn and Machine Lear
 
 Package requirements:
 1.Python 2.7+ or Python 3
+
 2.NumPy
+
 3.Pandas
+
 4.Scikit-Learn (a.k.a. sklearn)
 
 Here are the steps for building the first random forest model using Scikit-Learn:
 
 1.Set up your environment.
+
 2.Import libraries and modules.
+
 3.Load red wine data.
+
 4.Split data into training and test sets.
+
 5.Declare data preprocessing steps.
+
 6.Declare hyperparameters to tune.
+
 7.Tune model using cross-validation pipeline.
+
 8.Refit on the entire training set.
+
 9.Evaluate model pipeline on test data.
+
 10.Save model for further use.
 
 In this Python Machine Learning Project, I've demonstrated how to use Scikit-Learn to build and tune a supervised learning model.
@@ -41,11 +53,17 @@ Finally, this exercise helped me master the workflow of model building.
 It also helped me practice:
 
 1.Importing data
+
 2.Cleaning data
+
 3.Splitting it into train/test or cross-validation sets
+
 4.Pre-processing
+
 5.Transformations
+
 6.Feature engineering
+
 
 Source:
 https://elitedatascience.com/python-machine-learning-tutorial-scikit-learn
