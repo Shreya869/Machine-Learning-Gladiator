@@ -9,7 +9,7 @@ Package requirements:
 
 3) Pandas
 
-4)Scikit-Learn (a.k.a. sklearn)
+4) Scikit-Learn (a.k.a. sklearn)
 
 Here are the steps for building the first random forest model using Scikit-Learn:
 
